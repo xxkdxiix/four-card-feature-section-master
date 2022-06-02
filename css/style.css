@@ -11,6 +11,7 @@ body {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.7em;
+    color: hsl(234, 12%, 34%);
 }
 
 .intro,
@@ -43,8 +44,13 @@ body {
 
 .intro p {
     font-size: medium;
-    font-weight: 200;
     padding: 0 0.5em;
+}
+
+.intro p,
+.container p {
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
 }
 
 .cards {
